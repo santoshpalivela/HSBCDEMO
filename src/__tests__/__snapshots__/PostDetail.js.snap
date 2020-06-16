@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+<div
+  className="container"
+>
+  <div>
+    <button
+      className="btn-goback"
+      onClick={[Function]}
+    >
+       
+      Go back
+       
+    </button>
+  </div>
+  <h2>
+    Details
+  </h2>
+  <div>
+    <div
+      className="lbl-details"
+    >
+      <span
+        className="lbl-bold"
+      >
+         UserId : 
+      </span>
+      <span>
+        1
+      </span>
+    </div>
+    <div
+      className="lbl-details"
+    >
+      <span
+        className="lbl-bold"
+      >
+         Id : 
+      </span>
+      <span>
+        0
+      </span>
+    </div>
+    <div
+      className="lbl-details"
+    >
+      <span
+        className="lbl-bold"
+      >
+         Title : 
+      </span>
+      <span>
+        
+      </span>
+    </div>
+    <div
+      className="lbl-details"
+    >
+      <span
+        className="lbl-bold"
+      >
+         Body : 
+      </span>
+      <span>
+        
+      </span>
+    </div>
+  </div>
+</div>
+`;

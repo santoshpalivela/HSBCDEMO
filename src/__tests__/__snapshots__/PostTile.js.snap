@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+<div
+  className="tile-card"
+>
+  <div
+    className="lbl-userid"
+  >
+    <span>
+      UserId:
+    </span>
+    <span
+      className="userid-val"
+    >
+      100
+    </span>
+  </div>
+  <div
+    className="lbl-title"
+  >
+    <span>
+      Title:
+    </span>
+    <span
+      className="title-val"
+    >
+      at nam consequatur ea labore ea harum
+    </span>
+  </div>
+</div>
+`;

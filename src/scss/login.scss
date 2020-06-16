@@ -1,0 +1,17 @@
+@import "variables";
+.login-container
+{
+    padding: 50px;
+    
+    margin: auto;
+    .card
+    {
+        box-shadow: 5px 5px #dee2e6;
+    border-radius: 5px;
+    }
+
+    @media screen and (min-width: #{$break-tablet}){
+        
+        width: 40%;
+    }
+}

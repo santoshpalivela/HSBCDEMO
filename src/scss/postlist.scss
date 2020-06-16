@@ -1,0 +1,95 @@
+@import "variables";
+
+.search-bar {
+
+  padding: 10px 0px;
+  flex-direction: row;
+  margin: 0;
+
+  @media screen and (min-width: #{$break-tablet}) {
+
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  @media screen and (min-width: #{$break-labtop}) {
+
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+
+  .btn-logout {
+
+    width: 90%;
+    padding: 10px 20px;
+    margin: 5px 20px;
+
+    
+    @media screen and (min-width: #{$break-tablet}) {
+
+      width: 44%;
+    }
+
+    @media screen and (min-width: #{$break-labtop}) {
+
+      width: 30%;
+    }
+
+
+  }
+
+  .txt-search {
+    width: 90%;
+
+    margin: 5px 20px;
+
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('https://www.w3schools.com/howto/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+
+
+    @media screen and (min-width: #{$break-tablet}) {
+
+      width: 44%;
+    }
+
+    @media screen and (min-width: #{$break-labtop}) {
+
+      width: 60%;
+    }
+  }
+}
+
+.post-list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
+.post-tile {
+  width: 30%;
+}
+
+.no-data {
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 40%;
+}
+
+
+.col-lg-4 {
+  @media screen and (min-width: #{$break-tablet}) {
+
+    width: 50%;
+  }
+
+}
