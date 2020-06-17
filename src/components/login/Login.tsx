@@ -9,7 +9,7 @@ import { Card, CardHeader, CardBody } from "reactstrap";
 import "../../scss/login.scss";
 
 interface Props extends RouteComponentProps {}
-const initLoginInfo = { login: "admin", password: "Admin123" };
+const initLoginInfo = { login: "", password: "" };
 
 const Login: React.FC<Props> = (props: Props) => {
   const [loginInfo, setLoginInfo] = useState<LoginEntity>(initLoginInfo);
