@@ -1,3 +1,4 @@
+import { ReactComponentElement, Props } from "react";
 
  export interface Post {
     userId: number;
@@ -22,4 +23,13 @@ export interface ErrorInfo
   isValid:boolean
 }
 
+
+export interface Route 
+{
+  path: string,
+    component: any,
+    isPrivateRoute: boolean,
+    exact:boolean
+
+}
 // export {Post,Posts,LoginEntity};

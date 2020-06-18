@@ -11,6 +11,8 @@ import {
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
+import {Route as IRoute} from "./types"
+
 import routes from "./types/routes";
 toast.configure();
 
@@ -20,7 +22,7 @@ export const App = () => {
     else return false;
   };
 
-  const PrivateRoute = ({ component: Component, ...rest }) => (
+  const PrivateRoute:React.FC<IRoute> = ({ component:Component , ...rest }:IRoute) => (
     <Route
       {...rest}
       render={(props) =>
@@ -44,9 +46,7 @@ export const App = () => {
           {routes.map((route, index) =>
             route.isPrivateRoute ? (
               <PrivateRoute
-                exact={true}
-                path={route.path}
-                component={route.component}
+                {...route}
                 key={index}
               />
             ) : (
